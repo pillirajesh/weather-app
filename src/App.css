@@ -1,0 +1,24 @@
+.app-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://picstatio.com/large/27feb6/dark-clouds-sunset.jpg");
+  background-size: cover;
+  margin-top: none;
+  padding-top: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 5px 1px 5px 5px #9190a6;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+}

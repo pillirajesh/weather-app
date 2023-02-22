@@ -1,0 +1,24 @@
+.input-cont {
+  width: 100%;
+  border-radius: 5px;
+  font-family: "roboto";
+  font-weight: 600;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  outline: none;
+}
+
+.button {
+  background-color: #a17806;
+  padding: 10px;
+  font-family: "roboto";
+  border: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .input-cont {
+    width: 100%;
+  }
+}
